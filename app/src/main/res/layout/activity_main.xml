@@ -13,9 +13,9 @@
         android:background="@drawable/uk"
         android:text="Study In the United Kingdom
                    4 First_class Universities"
-        android:textColor="#6896BC"
+        android:textAppearance="?android:textAppearanceLarge"
 
-        android:textAppearance="?android:textAppearanceLarge" />
+        android:textColor="#6896BC" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -36,8 +36,9 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:background="@drawable/cambridge"
-                android:text="Cambridge"
+                android:onClick="goCambrdige"
                 android:paddingRight="2dp"
+                android:text="Cambridge"
                 android:textAppearance="?android:textAppearanceMedium" />
 
             <TextView
@@ -46,8 +47,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:background="@drawable/oxford"
-                android:text="Oxford"
                 android:paddingLeft="2dp"
+                android:text="Oxford"
                 android:textAppearance="?android:textAppearanceMedium" />
         </LinearLayout>
 

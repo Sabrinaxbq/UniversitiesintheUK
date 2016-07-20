@@ -15,7 +15,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".cambridgeActivity"></activity>
+        <activity android:name=".cambridgeActivity" />
+        <activity android:name=".OxfordActivity" />
+        <activity android:name=".CollegeActivity" />
+        <activity android:name=".ImperialActivity"></activity>
     </application>
 
 </manifest>

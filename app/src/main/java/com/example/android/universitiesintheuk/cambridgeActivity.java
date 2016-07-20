@@ -14,13 +14,16 @@ public class cambridgeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_cambridge);
     }
 
+    public void location(View view) {
+
+    }
     public void back(View view) {
         Intent intro = new Intent(this, MainActivity.class);
-
+        startActivity(intro);
     }
 
     public void knowmore(View view) {
-        Uri webpage = Uri.parse("http://www.google.com");
+        Uri webpage = Uri.parse("https://www.cam.ac.uk/");
         Intent intent = new Intent(Intent.ACTION_VIEW, webpage);
         if (intent.resolveActivity(getPackageManager()) != null) {
             startActivity(intent);
