@@ -5,14 +5,16 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="4dp"
+    android:background="@drawable/background_pic"
     tools:context="com.example.android.universitiesintheuk.MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/uk"
+        android:padding="16dp"
         android:text="Study In the United Kingdom
-                   4 First_class Universities"
+                   4 First-class Universities"
         android:textAppearance="?android:textAppearanceLarge"
         android:gravity="center"
         android:textColor="#6896BC" />
@@ -40,7 +42,8 @@
                 android:onClick="goCambrdige"
                 android:paddingRight="2dp"
                 android:text="Cambridge"
-                android:textAppearance="?android:textAppearanceMedium"
+                android:textSize="30sp"
+                android:textColor="#CEEEFF"
                 />
 
             <TextView
@@ -53,7 +56,8 @@
                 android:onClick="goOxford"
                 android:paddingLeft="2dp"
                 android:text="Oxford"
-                android:textAppearance="?android:textAppearanceMedium" />
+                android:textSize="30sp"
+                android:textColor="#CEEEFF"/>
         </LinearLayout>
 
         <LinearLayout
@@ -72,7 +76,8 @@
                 android:background="@drawable/college"
                 android:onClick="goCollege"
                 android:text="Imperial"
-                android:textAppearance="?android:textAppearanceMedium" />
+                android:textSize="30sp"
+                android:textColor="#CEEEFF"/>
 
             <TextView
                 android:id="@+id/imperial"
@@ -83,7 +88,9 @@
                 android:background="@drawable/imperial"
                 android:onClick="goImperial"
                 android:text="Imperial"
-                android:textAppearance="?android:textAppearanceMedium" />
+                android:textSize="30sp"
+                android:textColor="#CEEEFF"
+                />
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>
