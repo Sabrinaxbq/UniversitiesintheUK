@@ -5,13 +5,18 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.webkit.WebView;
 
 public class cambridgeActivity extends AppCompatActivity {
-
+    WebView webCam;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cambridge);
+        webCam =(WebView)findViewById(R.id.web_cambridge);
+        String text = "<html><body>" + "<p align=\"justify\">" + getString(R.string.cambridge_text) + "</p> " + "</body></html>";
+        webCam.loadData(text, "text/html" ,"utf-8");
+        webCam.setBackgroundColor(0);
     }
 
     public void location(View view) {

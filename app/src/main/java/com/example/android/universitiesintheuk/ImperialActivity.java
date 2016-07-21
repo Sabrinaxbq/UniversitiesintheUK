@@ -5,13 +5,19 @@ import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.webkit.WebView;
 
 public class ImperialActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        WebView webImp;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_imperial);
+        webImp =(WebView)findViewById(R.id.web_imperial);
+        String text = "<html><body>" + "<p align=\"justify\">" + getString(R.string.imperial_text) + "</p> " + "</body></html>";
+        webImp.loadData(text, "text/html", "utf-8");
+        webImp.setBackgroundColor(0);
     }
 
     public void location(View view) {

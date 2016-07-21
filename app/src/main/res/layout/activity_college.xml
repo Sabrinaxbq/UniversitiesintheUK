@@ -13,21 +13,24 @@
         android:paddingLeft="@dimen/activity_horizontal_margin"
         android:paddingRight="@dimen/activity_horizontal_margin"
         android:paddingTop="@dimen/activity_vertical_margin"
-        tools:context="com.example.android.universitiesintheuk.CollegeActivity">
+        tools:context="com.example.android.universitiesintheuk.CollegeActivity"
+        android:background="@drawable/background_pic">
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:src="@drawable/london_logo" />
 
-        <TextView
+        <WebView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/college_text"
+            android:layout_height="match_parent"
+            android:id="@+id/web_college"
             android:paddingLeft="4dp"
             android:textAppearance="?android:textAppearanceMedium"
             android:background="@drawable/college_pic"
-            />
+            >
+
+        </WebView>
 
 
         <LinearLayout
