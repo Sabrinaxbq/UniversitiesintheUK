@@ -16,6 +16,20 @@ public class MainActivity extends AppCompatActivity {
     public void goCambrdige(View view) {
         Intent goCam = new Intent(this, cambridgeActivity.class);
         startActivity(goCam);
+    }
 
+    public void goOxford(View view) {
+        Intent goOxf = new Intent(this, OxfordActivity.class);
+        startActivity(goOxf);
+    }
+
+    public void goImperial(View view) {
+        Intent goImp = new Intent(this, ImperialActivity.class);
+        startActivity(goImp);
+    }
+
+    public void goCollege(View view) {
+        Intent goCol = new Intent(this, CollegeActivity.class);
+        startActivity(goCol);
     }
 }

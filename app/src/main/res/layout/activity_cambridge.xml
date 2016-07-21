@@ -23,25 +23,11 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="       The University of Cambridge is a collegiate public research university in Cambridge, England. Founded in 1209, Cambridge is the second-oldest university in the English-speaking world and the world's fourth-oldest surviving university.
-
-       Cambridge is formed from a variety of institutions which include 31 constituent colleges and over 100 academic departments organised into six schools. Cambridge University Press, a department of the university, is the world's oldest publishing house and the second-largest university press in the world. The university also operates eight cultural and scientific museums, including the Fitzwilliam Museum, and a botanic garden. Cambridge's libraries hold a total of around 15 million books, eight million of which are in Cambridge University Library, a legal deposit library.
-
-Motto	Hinc lucem et pocula sacra (Latin)
-Motto in English
-Literal: From this place, we gain enlightenment and precious knowledge
-Type	Research University
-Endowment	£5.89 billion (2014, University endowment: £2.291 billion, Colleges endowment: £3.6 billion)[1]
-Chancellor	The Lord Sainsbury of Turville
-Students	19,515 (2014/15)
-Undergraduates	12,230 (2014/15)
-Postgraduates	7,285 (2014/15)
-Location	Cambridge, England, United Kingdom
-Campus	Urban
-366,444 square metres (36.6444 ha)
-"
-
+            android:background="@drawable/cambridge_pic"
+            android:text="@string/cambridge_text"
+            android:paddingLeft="4dp"
             android:textAppearance="?android:textAppearanceMedium" />
+
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -49,23 +35,25 @@ Campus	Urban
             android:orientation="horizontal">
 
             <Button
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:onClick="location"
                 android:text="Location" />
 
             <Button
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:onClick="knowmore"
                 android:text="Know More" />
 
             <Button
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:onClick="back"
                 android:text="back" />
         </LinearLayout>
     </LinearLayout>
-
 </ScrollView>

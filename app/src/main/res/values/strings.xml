@@ -1,4 +1,36 @@
 <resources>
     <string name="app_name">Universities in the UK</string>
-    <string name="title_activity_cambridge">Cambridge</string>
+    <string name="title_activity_cambridge">University of Cambridge</string>
+    <string name="title_activity_oxford">University of Oxford</string>
+    <string name="title_activity_imperial">Imperial College London</string>
+    <string name="title_activity_college">University College London</string>
+    <string name="cambridge_text">
+\t The University of Cambridge is a collegiate public research university in Cambridge, England. Founded in 1209, Cambridge is the second-oldest university in the English-speaking world and the fourth-oldest surviving university in the world. The university grew out of an association of scholars who left the University of Oxford after a dispute with the townspeople. The two ancient universities share many common features and are often referred to jointly as \'Oxbridge\'.
+\n \n
+        Cambridge is formed from a variety of institutions which include 31 constituent colleges and over 100 academic departments organized into six schools. Cambridge University Press, a department of the university, is the world\'s oldest publishing house and the second-largest university press in the world. The university also operates eight cultural and scientific museums, including the Fitzwilliam Museum, and a botanic garden. Cambridge\'s libraries hold a total of around 15 million books, eight million of which are in Cambridge University Library, a legal deposit library.
+\n \n
+\t In addition to the 31 colleges, the university is made up of over 150 departments, faculties, schools, syndicates and other institutions. Members of these are usually also members of one of the colleges and responsibility for running the entire academic programme of the university is divided amongst them. The university also houses the Institute of Continuing Education, a centre for part-time study.
+</string>
+
+    <string name="oxford_text">
+\t  The University of Oxford is a collegiate research university located in Oxford, England, United Kingdom. The university is made up of a variety of institutions, including 38 constituent colleges and a full range of academic departments which are organized into four divisions. All the colleges are self-governing institutions as part of the university, each controlling its own membership and with its own internal structure and activities. Being a city university, it does not have a main campus; instead, all the buildings and facilities are scattered throughout the city centre. Most undergraduate teaching at Oxford is organized around weekly tutorials at the self-governing colleges and halls, supported by classes, lectures and laboratory work provided by university faculties and departments.
+\n \n
+    Oxford is the home of the Rhodes Scholarship, one of the world\’s oldest and most prestigious scholarships, which has brought graduate students to study at the university for more than a century. The university operates the world\'s oldest university museum, as well as the largest university press in the world and the largest academic library system in Britain. Oxford has educated many notable alumni, including 27 Nobel laureates, 27 Prime Ministers of the United Kingdom, and many foreign heads of state.
+
+    </string>
+
+    <string name="imperial_text">
+\t  Imperial College London is a public research university located in London, United Kingdom. Its royal founder, Prince Albert, envisioned an area composed of the Natural History Museum, Victoria and Albert Museum, Science Museum, Royal Albert Hall and the Imperial Institute.The Imperial Institute was opened by his wife, Queen Victoria, who laid the foundation stone. In 1907, Imperial College London was formed by Royal Charter, and joined the University of London. However, Imperial became fully independent from the University of London in 2007.
+\n \n
+    Imperial is organized into faculties of science, engineering, medicine and business. Its main campus is located next to Kensington Palace and gardens in the Royal Borough of Kensington and Chelsea. Imperial\'s contributions to society include the discovery of penicillin, the development of holography and fibre optics. The university\’s focus is in science and technology and their applications for industry. The college also expanded into the field of medicine in 1997 through the merger of several historic medical schools. In 2004, Queen Elizabeth II opened the Imperial College Business School.
+
+    </string>
+
+    <string name="college_text">
+\t  University College London (UCL) is a public research university in London, England and a founding constituent college of the federal University of London. The largest postgraduate institution in the UK by enrollment, UCL is regarded as one of the most prestigious multidisciplinary research universities in the world.
+\n \n
+\t   Established in 1826 as London University by founders inspired by the radical ideas of Jeremy Bentham, UCL was the first university institution to be established in London, and the first in England to be entirely secular and to admit students regardless of their religion. UCL makes the disputed claims of being the third-oldest university in England and the first to admit women on equal terms with men. UCL became one of the two founding colleges of the University of London in 1836, which was granted a royal charter that year. It has grown through mergers, including with the Institute of Neurology (in 1997), the Royal Free Hospital Medical School (in 1998), the Eastman Dental Institute (in 1999), the School of Slavonic and East European Studies (in 1999), the School of Pharmacy (in 2012) and the Institute of Education (in 2014).
+
+    </string>
 </resources>
+

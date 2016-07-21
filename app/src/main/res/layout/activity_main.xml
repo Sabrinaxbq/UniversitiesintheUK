@@ -14,7 +14,7 @@
         android:text="Study In the United Kingdom
                    4 First_class Universities"
         android:textAppearance="?android:textAppearanceLarge"
-
+        android:gravity="center"
         android:textColor="#6896BC" />
 
     <LinearLayout
@@ -35,18 +35,22 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:gravity="center"
                 android:background="@drawable/cambridge"
                 android:onClick="goCambrdige"
                 android:paddingRight="2dp"
                 android:text="Cambridge"
-                android:textAppearance="?android:textAppearanceMedium" />
+                android:textAppearance="?android:textAppearanceMedium"
+                />
 
             <TextView
                 android:id="@+id/oxford"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:gravity="center"
                 android:background="@drawable/oxford"
+                android:onClick="goOxford"
                 android:paddingLeft="2dp"
                 android:text="Oxford"
                 android:textAppearance="?android:textAppearanceMedium" />
@@ -64,7 +68,9 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:gravity="center"
                 android:background="@drawable/college"
+                android:onClick="goCollege"
                 android:text="Imperial"
                 android:textAppearance="?android:textAppearanceMedium" />
 
@@ -73,7 +79,9 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:gravity="center"
                 android:background="@drawable/imperial"
+                android:onClick="goImperial"
                 android:text="Imperial"
                 android:textAppearance="?android:textAppearanceMedium" />
         </LinearLayout>
