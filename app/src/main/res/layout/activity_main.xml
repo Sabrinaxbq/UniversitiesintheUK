@@ -17,7 +17,8 @@
         android:textSize="38sp"
         android:gravity="center"
         android:textColor="#6896BC"
-        android:textStyle="bold"/>
+        android:textStyle="bold"
+        android:onClick="apply"/>
 
     <LinearLayout
         android:layout_width="match_parent"

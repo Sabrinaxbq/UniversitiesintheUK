@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.android.universitiesintheuk">
 
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -18,7 +20,8 @@
         <activity android:name=".cambridgeActivity" />
         <activity android:name=".OxfordActivity" />
         <activity android:name=".CollegeActivity" />
-        <activity android:name=".ImperialActivity"></activity>
+        <activity android:name=".ImperialActivity" />
+        <activity android:name=".Application"></activity>
     </application>
 
 </manifest>

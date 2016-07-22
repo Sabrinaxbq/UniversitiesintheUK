@@ -32,4 +32,10 @@ public class MainActivity extends AppCompatActivity {
         Intent goCol = new Intent(this, CollegeActivity.class);
         startActivity(goCol);
     }
+
+    public void apply(View view) {
+        Intent application = new Intent(this, Application.class);
+        startActivity(application);
+    }
+
 }
